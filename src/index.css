@@ -11,16 +11,48 @@ body {
 .App {
   background: #F4F9FC;
   margin: 20px auto;
-  width: 90%;
-  max-width: 700px;
-  color: #eee;
-}
-.navbar{
-  padding: 10px 20px;
   width: 100%;
+  max-width: 700px;
+  color: #050B9E;
+}
+.navbar {
+  padding: 10px 20px;
   text-align: center;
   background: #4E57CA;
+  color: #F4F4F4;
 }
-.navbar h1{
+.navbar h1 {
   margin: 10px 0;
+}
+
+.book-list {
+  margin: 20px;
+}
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li {
+  background: #050B9E;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.book-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.book-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.book-list .author {
+  font-size: 0.9em;
+  color: #ddd;
+}
+.empty {
+  margin: 20px;
+  text-align: center;
 }
