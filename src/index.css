@@ -5,11 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #F4F4F4;
+  background: rgb(240, 242, 243);
 }
 
 .App {
-  background: #F4F9FC;
+  background: rgb(234, 239, 241);
   margin: 20px auto;
   width: 100%;
   max-width: 700px;
@@ -55,4 +55,24 @@ body {
 .empty {
   margin: 20px;
   text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #050B9E;
+  color: #fff;
+  border: 0;
+}
+input[type='submit'] {
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
 }
